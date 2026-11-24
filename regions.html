@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>规则说明 · 麻将学习器</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">麻将学习器</div>
+  <div class="top-actions">
+    <a class="link-btn" href="index.html">← 返回对局</a>
+  </div>
+</header>
+
+<main class="doc-page">
+  <div class="doc-head">
+    <h1>规则说明</h1>
+    <p class="doc-lead">这里用的是<strong>通用简化规则</strong>：136 张牌、凑齐 4 组面子 + 1 对将就能胡，不算番、不计分。它不照搬任何一个地区，但麻将的基本功是相通的。本页先讲这套规则怎么打，再说你老家的打法和这里差在哪。</p>
+  </div>
+
+  <section class="doc-sec">
+    <h2>本工具怎么玩</h2>
+    <div class="region-card">
+      <ul class="rule-list-doc">
+        <li>共 <b>136 张牌</b>：万、条、筒各 1–9，东南西北、中发白，无花牌。</li>
+        <li>四人各起手 <b>13 张</b>，庄家先摸先打，按逆时针轮流摸一张、打一张。</li>
+        <li>和牌牌型：<b>4 组面子（顺子或刻子）+ 1 对将</b>；或<b>七对子</b>。</li>
+        <li>顺子为同花色连续三张；刻子为三张相同；风牌与箭牌只能组成刻子。</li>
+        <li>上家打出的牌可吃，任意人打出的牌可碰、杠、和；<b>和牌优先于碰杠，碰杠优先于吃</b>。</li>
+        <li>杠后从牌墙补摸一张。牌墙摸完仍无和牌则流局。</li>
+        <li>学习提示基于向听数与有效进张计算，给出推荐出牌与理由，仅供练习参考。</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="doc-sec">
+    <h2>先放心：这些是各地通用的</h2>
+    <p class="doc-p">不管玩哪里的麻将，下面这些都一样。把这个工具玩明白，再去看地方规则会轻松很多：</p>
+    <div class="common-grid">
+      <div class="common-item"><b>牌型骨架</b><span>顺子（同花色连号三张）、刻子（三张相同）、将（一对），标准和牌都是 4 面子 + 1 将。</span></div>
+      <div class="common-item"><b>七对</b><span>七个对子组成的特殊胡牌型，各地几乎都认，只是番数不同。</span></div>
+      <div class="common-item"><b>听牌思路</b><span>差几张听牌、摸什么牌能进张、还剩几张——判断方法完全通用。</span></div>
+      <div class="common-item"><b>吃碰杠胡</b><span>四种动作的含义一样，只是有的地区禁止吃、有的地区胡牌有条件。</span></div>
+      <div class="common-item"><b>自摸与点炮</b><span>自己摸到胡 / 和别人打出的牌，概念通用，只是付钱方式不同。</span></div>
+      <div class="common-item"><b>记牌与安全</b><span>记住出过的牌、避开危险牌，这是所有打法都需要的硬功夫。</span></div>
+    </div>
+  </section>
+
+  <section class="doc-sec">
+    <h2>一张表看懂主要差别</h2>
+    <div class="table-wrap">
+      <table class="cmp-table">
+        <thead><tr><th>地区 / 玩法</th><th>用牌</th><th>最不一样的地方</th><th>计分</th></tr></thead>
+        <tbody>
+          <tr class="this-tool">
+            <th>本工具（通用简化）</th>
+            <td>136 张，无花</td>
+            <td>4 面子 + 1 将即可胡，可吃碰杠</td>
+            <td>不计分，只讲解牌型</td>
+          </tr>
+          <tr>
+            <th>浙江</th>
+            <td>144 张，8 张花牌</td>
+            <td>有花牌和财神（百搭），摸花要补牌；胡牌有爆头、杠开等名目</td>
+            <td>算花计分，多为三番封顶</td>
+          </tr>
+          <tr>
+            <th>四川</th>
+            <td>108 张，无字牌花牌</td>
+            <td>必须缺一门、不能吃、血战到底（有人胡了继续打）</td>
+            <td>刮风下雨（杠立刻收分）、查叫</td>
+          </tr>
+          <tr>
+            <th>广东</th>
+            <td>136 或 144 张，看玩法</td>
+            <td>多不能吃；分推倒胡（无番也能胡）与鸡平胡（需起番），常见买马</td>
+            <td>番数翻倍计分，封顶各地不同</td>
+          </tr>
+          <tr>
+            <th>日本麻将</th>
+            <td>136 张，可加赤宝牌</td>
+            <td>必须有「役」才能胡，立直、宝牌、振听等机制</td>
+            <td>番 + 符查表算点数，满贯/役满分档</td>
+          </tr>
+          <tr>
+            <th>国标麻将</th>
+            <td>136 张，无花</td>
+            <td>81 种番型，且必须凑够 8 番才能胡</td>
+            <td>按番种表累加计分</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="doc-sec">
+    <h2>各地打法要点</h2>
+
+    <article class="region-card">
+      <h3>浙江 <small>省内也不统一</small></h3>
+      <ul>
+        <li>用 <b>144 张</b>：在 136 张之外多出花牌「春夏秋冬、梅兰竹菊」，摸到花牌要亮出并从牌墙尾部补一张。</li>
+        <li>有<b>财神（百搭）</b>，可以代替任意牌；翻到花牌时通常以东风为财神。</li>
+        <li>花牌单独计分（一张算一花，集齐一套有加分），还有爆头、杠开、大吊等本地番名。</li>
+        <li><b>省内差异很大</b>：三门用双套花牌、冲数制加买马；宁海有补花与三番封顶；绍兴只能自摸、不许点炮。想学要先定到具体城市。</li>
+      </ul>
+    </article>
+
+    <article class="region-card">
+      <h3>四川 <small>血战到底</small></h3>
+      <ul>
+        <li>只有 <b>108 张</b>：万、条、筒各 36 张，没有风牌、箭牌和花牌。</li>
+        <li><b>不能吃</b>，只能碰、杠；开局要「定缺」，胡牌时手里必须少一门花色，否则是「花猪」要赔钱。</li>
+        <li><b>血战到底</b>：一家胡牌后牌局不结束，其余人继续打，直到三家胡或流局。</li>
+        <li>「刮风下雨」指杠牌立刻收分；流局还要「查叫」，没听牌的人要赔给听牌的人。</li>
+      </ul>
+    </article>
+
+    <article class="region-card">
+      <h3>广东 <small>推倒胡 / 鸡平胡</small></h3>
+      <ul>
+        <li>常见两种玩法：<b>推倒胡</b>凑齐牌型就能胡、没有起胡番；<b>鸡平胡</b>至少要有一番才能胡。</li>
+        <li>传统打法<b>不能吃</b>，只能碰、杠、胡（部分玩法放宽）。</li>
+        <li>「<b>买马</b>」是特色：胡牌后从牌墙摸几张，按点数对应座位，中马则加倍输赢。</li>
+        <li>番数按 2 的次方翻倍，清一色、碰碰胡、七对各有番；封顶番数各地约定不同。</li>
+      </ul>
+    </article>
+
+    <article class="region-card">
+      <h3>日本麻将 <small>立直麻将</small></h3>
+      <ul>
+        <li>不能随便胡：手牌必须满足一个「<b>役</b>」（如立直、断幺九、役牌），光凑齐 4 面子 1 将不算和牌。</li>
+        <li><b>立直</b>：门清听牌时宣告，之后不能换牌，立直后和牌有额外番。</li>
+        <li><b>宝牌</b>由指示牌决定，每张加一番；但宝牌不是役，没役照样不能胡。</li>
+        <li>得分用「番 + 符」查表，有满贯、跳满、役满等分档；还有振听、一发等机制。</li>
+      </ul>
+    </article>
+
+    <article class="region-card">
+      <h3>国标麻将 <small>竞技规则</small></h3>
+      <ul>
+        <li>用 136 张无花牌，但有 <b>81 种番型</b>，从 1 番到 88 番。</li>
+        <li><b>8 番起胡</b>：就算凑齐了 4 面子 1 将，番数不够也不能胡，要继续调整牌型。</li>
+        <li>番种可以叠加，但部分不能复合（如清一色与混一色不能同时算）。</li>
+        <li>这是比赛用的统一规则，最严谨，也最需要背番种表。</li>
+      </ul>
+    </article>
+  </section>
+
+  <section class="doc-sec doc-end">
+    <h2>给你的建议</h2>
+    <p class="doc-p">先把这个通用版玩熟——重点是看懂“听牌、向听、进张”这三件事。之后不管转到哪种地方打法，你差的只是那一层本地规则：浙江多花牌财神、四川多缺门血战、日本多役种立直、国标多番型门槛。基本功扎实，这些规则一两条就能补上。</p>
+    <a class="solid-btn doc-back" href="index.html">返回对局</a>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p class="footer-note">本站内容仅供学习和交流，非商业用途</p>
+  <a class="footer-link" href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">浙ICP备2025187466号</a>
+  <a class="footer-link footer-police" href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33030402001483" target="_blank" rel="noopener"><img src="https://www.937788.xyz/gonganbeian.png" alt="公安备案"><span>浙公网安备33030402001483号</span></a>
+</footer>
+</body>
+</html>
